@@ -1,4 +1,4 @@
-package com.forumcheckcode.service.impl;
+package com.checkcode.service.impl;
 
 import com.google.code.kaptcha.impl.DefaultKaptcha;
 import com.xuecheng.base.utils.EncryptUtil;

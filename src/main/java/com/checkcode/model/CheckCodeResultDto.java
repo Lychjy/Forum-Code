@@ -1,4 +1,4 @@
-package com.forumcheckcode.model;
+package com.checkcode.model;
 
 import lombok.Data;
 

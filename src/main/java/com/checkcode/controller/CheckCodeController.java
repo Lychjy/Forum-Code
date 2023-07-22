@@ -1,8 +1,8 @@
-package com.forumcheckcode.controller;
+package com.checkcode.controller;
 
-import com.xuecheng.checkcode.model.CheckCodeParamsDto;
-import com.xuecheng.checkcode.model.CheckCodeResultDto;
-import com.xuecheng.checkcode.service.CheckCodeService;
+import com.checkcode.model.CheckCodeParamsDto;
+import com.checkcode.model.CheckCodeResultDto;
+import com.checkcode.service.CheckCodeService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiImplicitParams;
@@ -10,6 +10,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 
 
 /**

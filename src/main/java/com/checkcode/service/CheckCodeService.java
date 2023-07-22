@@ -1,7 +1,7 @@
-package com.forumcheckcode.service;
+package com.checkcode.service;
 
-import com.xuecheng.checkcode.model.CheckCodeParamsDto;
-import com.xuecheng.checkcode.model.CheckCodeResultDto;
+import com.checkcode.model.CheckCodeParamsDto;
+import com.checkcode.model.CheckCodeResultDto;
 
 /**
  * @author Mr.M

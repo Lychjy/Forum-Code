@@ -1,4 +1,4 @@
-package com.forumcheckcode.config;
+package com.checkcode.config;
 
 import com.google.code.kaptcha.impl.DefaultKaptcha;
 import com.google.code.kaptcha.util.Config;

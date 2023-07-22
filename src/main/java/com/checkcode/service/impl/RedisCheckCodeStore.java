@@ -1,6 +1,6 @@
-package com.forumcheckcode.service.impl;
+package com.checkcode.service.impl;
 
-import com.xuecheng.checkcode.service.CheckCodeService;
+import com.checkcode.service.CheckCodeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;

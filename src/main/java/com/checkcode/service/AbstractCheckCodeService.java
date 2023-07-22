@@ -1,7 +1,7 @@
-package com.forumcheckcode.service;
+package com.checkcode.service;
 
-import com.xuecheng.checkcode.model.CheckCodeParamsDto;
-import com.xuecheng.checkcode.model.CheckCodeResultDto;
+import com.checkcode.model.CheckCodeParamsDto;
+import com.checkcode.model.CheckCodeResultDto;
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang.StringUtils;
@@ -34,7 +34,7 @@ public abstract class AbstractCheckCodeService implements CheckCodeService {
      * @author Mr.M
      * @date 2022/9/30 6:07
     */
-    public GenerateResult generate(CheckCodeParamsDto checkCodeParamsDto,Integer code_length,String keyPrefix,Integer expire){
+    public GenerateResult generate(CheckCodeParamsDto checkCodeParamsDto, Integer code_length, String keyPrefix, Integer expire){
         //生成四位验证码
         String code = checkCodeGenerator.generate(code_length);
         log.debug("生成验证码:{}",code);
